@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -13,6 +14,21 @@ export default {
         mona: ['Mona Sans', 'system-ui', 'sans-serif'],
         'ibm-plex': ['IBM Plex Sans', 'system-ui', 'sans-serif'],
         manrope: ['Manrope', 'system-ui', 'sans-serif'],
+      },
+      colors: {
+        brand: {
+          DEFAULT: '#ef4444',
+          50: '#fff1f0',
+          100: '#ffe1df',
+          200: '#ffc9c4',
+          300: '#ffa19a',
+          400: '#ff6b5f',
+          500: '#ef4444',
+          600: '#dc2626',
+          700: '#b91c1c',
+          800: '#991b1b',
+          900: '#7f1d1d',
+        }
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
